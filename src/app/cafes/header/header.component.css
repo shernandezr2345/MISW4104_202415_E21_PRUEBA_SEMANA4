@@ -1,0 +1,21 @@
+img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+.custom-hr {
+    border: 2px solid rgb(0, 0, 0,20); /* Cambia el color */
+    margin: 20px 0; /* Espaciado vertical */
+    
+  }
+
+  h1 {
+    font-size: 36px;
+    font-weight: 400; /* Regular equivale a 400 en la escala de pesos */
+    line-height: 1.5; /* Un valor común para una buena legibilidad */
+    letter-spacing: 0;
+    color: #000000;
+    text-align: left;
+  }
+  
