@@ -9,10 +9,16 @@
       </tr>
     </thead>
     <tbody>
-      
+      <tr *ngFor="let coffee of cafes; let i = index">
+        <td>{{ i + 1 }}</td>
+        <td>{{ coffee.nombre }}</td>
+        <td>{{ coffee.tipo }}</td>
+        <td>{{ coffee.region }}</td>
+      </tr>
     </tbody>
   </table>
   <div class="mt-2">
-   
+    <p>Total café de origen: {{ totalOrigen }}</p>
+    <p>Total café blend: {{ totalBlend }}</p>
   </div>
 </div>
